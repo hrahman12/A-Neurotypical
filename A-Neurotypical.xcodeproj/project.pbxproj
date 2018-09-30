@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		610C22FF215DE44A00B3A11F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 610C22FE215DE44A00B3A11F /* GoogleService-Info.plist */; };
 		7198DB871F27C53B0088BE5A /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198DB861F27C53B0088BE5A /* GroupCell.swift */; };
 		7198DB891F27CCAD0088BE5A /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198DB881F27CCAD0088BE5A /* Group.swift */; };
 		7198DB8B1F27D3BF0088BE5A /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7198DB8A1F27D3BF0088BE5A /* GroupFeedCell.swift */; };
@@ -18,7 +19,6 @@
 		71B61A0D1F23CEAA00FA8925 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A0B1F23CEAA00FA8925 /* Main.storyboard */; };
 		71B61A0F1F23CEAA00FA8925 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A0E1F23CEAA00FA8925 /* Assets.xcassets */; };
 		71B61A121F23CEAA00FA8925 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A101F23CEAA00FA8925 /* LaunchScreen.storyboard */; };
-		71B61A1F1F23D29800FA8925 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 71B61A1E1F23D29800FA8925 /* GoogleService-Info.plist */; };
 		71B61A211F23DE8800FA8925 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A201F23DE8800FA8925 /* DataService.swift */; };
 		71B61A231F26584800FA8925 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A221F26584800FA8925 /* AuthVC.swift */; };
 		71B61A251F26587E00FA8925 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B61A241F26587E00FA8925 /* LoginVC.swift */; };
@@ -37,13 +37,14 @@
 
 /* Begin PBXFileReference section */
 		0B9E38C08E35A3D9610F585D /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		610C22FE215DE44A00B3A11F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		659804F2063C9B52666C8A28 /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		7198DB861F27C53B0088BE5A /* GroupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
 		7198DB881F27CCAD0088BE5A /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		7198DB8A1F27D3BF0088BE5A /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		7198DB8C1F27D4240088BE5A /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
 		7198DB8E1F27ED5A0088BE5A /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
-		71B61A021F23CEAA00FA8925 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71B61A021F23CEAA00FA8925 /* A-Neurotypical.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A-Neurotypical.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71B61A051F23CEAA00FA8925 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71B61A071F23CEAA00FA8925 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		71B61A091F23CEAA00FA8925 /* GroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsVC.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		71B61A0E1F23CEAA00FA8925 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		71B61A111F23CEAA00FA8925 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		71B61A131F23CEAA00FA8925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		71B61A1E1F23D29800FA8925 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		71B61A201F23DE8800FA8925 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		71B61A221F26584800FA8925 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		71B61A241F26587E00FA8925 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -101,7 +101,7 @@
 		71B61A031F23CEAA00FA8925 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				71B61A021F23CEAA00FA8925 /* breakpoint.app */,
+				71B61A021F23CEAA00FA8925 /* A-Neurotypical.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -118,8 +118,8 @@
 				71B61A0B1F23CEAA00FA8925 /* Main.storyboard */,
 				71B61A0E1F23CEAA00FA8925 /* Assets.xcassets */,
 				71B61A101F23CEAA00FA8925 /* LaunchScreen.storyboard */,
+				610C22FE215DE44A00B3A11F /* GoogleService-Info.plist */,
 				71B61A131F23CEAA00FA8925 /* Info.plist */,
-				71B61A1E1F23D29800FA8925 /* GoogleService-Info.plist */,
 			);
 			path = breakpoint;
 			sourceTree = "<group>";
@@ -191,9 +191,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		71B61A011F23CEAA00FA8925 /* breakpoint */ = {
+		71B61A011F23CEAA00FA8925 /* A-Neurotypical */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71B61A161F23CEAA00FA8925 /* Build configuration list for PBXNativeTarget "breakpoint" */;
+			buildConfigurationList = 71B61A161F23CEAA00FA8925 /* Build configuration list for PBXNativeTarget "A-Neurotypical" */;
 			buildPhases = (
 				FBC7FF4FEE7A37F2C0E70576 /* [CP] Check Pods Manifest.lock */,
 				71B619FE1F23CEAA00FA8925 /* Sources */,
@@ -206,9 +206,9 @@
 			);
 			dependencies = (
 			);
-			name = breakpoint;
+			name = "A-Neurotypical";
 			productName = breakpoint;
-			productReference = 71B61A021F23CEAA00FA8925 /* breakpoint.app */;
+			productReference = 71B61A021F23CEAA00FA8925 /* A-Neurotypical.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -218,15 +218,16 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Caleb Stultz";
 				TargetAttributes = {
 					71B61A011F23CEAA00FA8925 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
-			buildConfigurationList = 71B619FD1F23CEAA00FA8925 /* Build configuration list for PBXProject "breakpoint" */;
+			buildConfigurationList = 71B619FD1F23CEAA00FA8925 /* Build configuration list for PBXProject "A-Neurotypical" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -239,7 +240,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				71B61A011F23CEAA00FA8925 /* breakpoint */,
+				71B61A011F23CEAA00FA8925 /* A-Neurotypical */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +251,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71B61A121F23CEAA00FA8925 /* LaunchScreen.storyboard in Resources */,
-				71B61A1F1F23D29800FA8925 /* GoogleService-Info.plist in Resources */,
+				610C22FF215DE44A00B3A11F /* GoogleService-Info.plist in Resources */,
 				71B61A0F1F23CEAA00FA8925 /* Assets.xcassets in Resources */,
 				71B61A0D1F23CEAA00FA8925 /* Main.storyboard in Resources */,
 			);
@@ -371,12 +372,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -426,12 +431,16 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -465,13 +474,13 @@
 			baseConfigurationReference = 659804F2063C9B52666C8A28 /* Pods-breakpoint.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
+				DEVELOPMENT_TEAM = SC6LATVY74;
 				INFOPLIST_FILE = breakpoint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stultzapps.breakpoint;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanah-rahman.a-neuro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -480,20 +489,20 @@
 			baseConfigurationReference = 88E2AC6AE28DD3B4718024E7 /* Pods-breakpoint.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = HLCDLFXF5Y;
+				DEVELOPMENT_TEAM = SC6LATVY74;
 				INFOPLIST_FILE = breakpoint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.stultzapps.breakpoint;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hanah-rahman.a-neuro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		71B619FD1F23CEAA00FA8925 /* Build configuration list for PBXProject "breakpoint" */ = {
+		71B619FD1F23CEAA00FA8925 /* Build configuration list for PBXProject "A-Neurotypical" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71B61A141F23CEAA00FA8925 /* Debug */,
@@ -502,7 +511,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71B61A161F23CEAA00FA8925 /* Build configuration list for PBXNativeTarget "breakpoint" */ = {
+		71B61A161F23CEAA00FA8925 /* Build configuration list for PBXNativeTarget "A-Neurotypical" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				71B61A171F23CEAA00FA8925 /* Debug */,

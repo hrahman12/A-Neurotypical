@@ -6,6 +6,18 @@
 //  Copyright © 2017 Caleb Stultz. All rights reserved.
 //
 
+
+//1) Create a web view with the terms and conditions loaded in view
+//on scroll enable the button to leave the screen
+//
+//2) Create a list of subjects for users to choose from when creating topics
+//This limits the users from open ended content
+//
+//3) Create user profiles. (2 minimum )
+//One for regular users and one for Moderators
+//    - Moderators should be able to block uesrs, block groups, block posts
+
+
 import UIKit
 
 class FeedVC: UIViewController {
